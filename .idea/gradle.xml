@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/mod6intentexplicite" />
             <option value="$PROJECT_DIR$/mod6intentimplicite" />
             <option value="$PROJECT_DIR$/mod6permission" />
+            <option value="$PROJECT_DIR$/mod7cycledevie" />
+            <option value="$PROJECT_DIR$/mod8viewmodel" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
