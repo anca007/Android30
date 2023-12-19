@@ -2,6 +2,9 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="SerieDbTest">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
@@ -21,6 +24,9 @@
         <State />
       </entry>
       <entry key="mod8viewmodel">
+        <State />
+      </entry>
+      <entry key="mod9room">
         <State />
       </entry>
     </value>
