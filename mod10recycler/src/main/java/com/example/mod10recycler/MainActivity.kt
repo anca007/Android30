@@ -1,5 +1,6 @@
 package com.example.mod10recycler
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
@@ -31,7 +32,12 @@ class MainActivity : AppCompatActivity() {
 
 
         val recycler = findViewById<RecyclerView>(R.id.recycler)
-        recycler.adapter = ProductAdapter(produits)
+        recycler.adapter = ProductAdapter(produits) { name ->
+            Intent(this, TargetActivity::class.java).also {
+                it.putExtra("name", name)
+                startActivity(it)
+            }
+        }
         recycler.layoutManager = LinearLayoutManager(this)
         //recycler.layoutManager = GridLayoutManager(this, 4)
 
