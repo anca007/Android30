@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mod10recycler" />
             <option value="$PROJECT_DIR$/mod6intentexplicite" />
             <option value="$PROJECT_DIR$/mod6intentimplicite" />
             <option value="$PROJECT_DIR$/mod6permission" />
